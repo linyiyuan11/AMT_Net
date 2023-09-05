@@ -9,10 +9,22 @@ change detection"](https://www.sciencedirect.com/science/article/abs/pii/S092427
 * Download the [HRSCD Dataset](https://ieee-dataport.org/open-access/hrscd-high-resolution-semantic-change-detection-dataset)
 * Download the [WHU-CD Dataset](http://gpcv.whu.edu.cn/data/building_dataset.html)
 * Download the [LEVIR-CD Dataset](http://chenhao.in/LEVIR/)
-|- train
-  |-time1
-  |-time2
-  |-label
+```
+Prepare datasets into following structure and set their path in train_options.py
+├─Train
+│  ├─time1
+│  │─time2
+│  │─label
+├─Test
+│  ├─time1
+│  │─time2
+│  │─label
+```
+# Train
+```
+python train.py
+```
+All the hyperparameters can be adjusted in train_options.py
 # model zool
 The models with the scores can be downloaded from[Baidu Cloud]().
 # Acknowledgments
@@ -30,3 +42,4 @@ If you find this repo useful for your research, please consider citing the paper
   publisher={Elsevier}
 }
 ```
+ 
