@@ -9,6 +9,10 @@ change detection"](https://www.sciencedirect.com/science/article/abs/pii/S092427
 * Download the [HRSCD Dataset](https://ieee-dataport.org/open-access/hrscd-high-resolution-semantic-change-detection-dataset)
 * Download the [WHU-CD Dataset](http://gpcv.whu.edu.cn/data/building_dataset.html)
 * Download the [LEVIR-CD Dataset](http://chenhao.in/LEVIR/)
+|- train
+  |-time1
+  |-time2
+  |-label
 # model zool
 The models with the scores can be downloaded from[Baidu Cloud]().
 # Acknowledgments
